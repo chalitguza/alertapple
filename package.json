@@ -1,0 +1,18 @@
+{
+  "name": "alertapple",
+  "version": "1.0.0",
+  "description": "BOT notifies new products from Apple from variable weekendOf by using selector to extract text data according to the product we want to buy. In the first minute that the system opens for purchase So the purpose of this project is to buy products from Apple in the first queue. From this project, I want to have notification on my Macbook Air M2 soon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1",
+    "line-notify-nodejs": "^1.0.1",
+    "xpath": "^0.0.32"
+  }
+}
